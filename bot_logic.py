@@ -15,7 +15,7 @@ def RS(r):
     return Rs_sustent[r-1]
   elif r == 11:
     return '🌱 Antigamente chamados de 3 Rs, com a adição de mais 7 Rs com o passar do tempo, os Rs da sustentabilidade são: Repensar, Reduzir, Reutilizar, Reciclar, Recusar, Restaurar, Reparar, Redesenhar, Responsabilizar-se e Reeducar. Eles representam práticas e atitudes que visam promover a sustentabilidade e a preservação do meio ambiente, incentivando a redução do consumo, o reaproveitamento de materiais e a conscientização sobre os impactos ambientais das nossas ações🌳.'
-  elif r == all:
+  elif r == 12:
     return Rs_sustent
   else:
-    return '⚠️⚠️ Número inválido. Por favor, insira um número entre 1 e 10, 11 para explicar a existência dos Rs ou "all" para mostrar todos os Rs ⚠️⚠️.'
+    return '⚠️⚠️ Número inválido. Por favor, insira um número entre 1 e 10, 11 para explicar a existência dos Rs ou 12 para mostrar todos os Rs ⚠️⚠️.'
